@@ -25157,7 +25157,6 @@ textarea.form-control-lg{
         top: -82px !important;
 
         width: 378px !important;
-        height: 632px !important;
     }
 
     .dg-shadow-container {
@@ -25171,8 +25170,7 @@ textarea.form-control-lg{
 
     .dg-img-barra {
         position: absolute;
-        top: 1.8%;
-        height: 615px !important;
+        top: 1.5%;
     }
 }
 

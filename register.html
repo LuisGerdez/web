@@ -7,7 +7,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="BYgADPja0hEI6K7Z0ozqKmd1wwRJKzo2vM8vJjFo">
 
-        <title>Docugate - Inicio de sesión</title>
+        <title>Docugate - Registro</title>
 
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -44,21 +44,43 @@
 
                                         <br><br>
 
-                                        <h3 class="card-title text-center">Inicio de sesión</h3>
+                                        <h3 class="card-title text-center">Registro</h3>
 
                                         <div class="card-text dg-login-container">  
                                             <form>  
+                                                <div class="form-group">  
+                                                    <label>Nombre</label>  
+                                                    <input type="text" class="form-control" name="nombre">  
+                                                </div>
+
+                                                <div class="form-group">  
+                                                    <label>Apellido</label>  
+                                                    <input type="text" class="form-control" name="apellido">  
+                                                </div>
+
+                                                <div class="form-group">  
+                                                    <label>Contraseña</label>  
+                                                    <input type="password" class="form-control" name="password">  
+                                                </div>
+
+                                                <div class="form-group">  
+                                                    <label>Número de identificación</label>  
+                                                    <input type="text" class="form-control" name="identificacion">  
+                                                </div>
+
                                                 <div class="form-group">  
                                                     <label>Correo electrónico</label>  
                                                     <input type="email" class="form-control" name="email">  
                                                 </div>
 
-                                                <br>
+                                                <div class="form-group">  
+                                                    <label>Contraseña</label>
+                                                    <input type="password" class="form-control" name="password">  
+                                                </div>
 
                                                 <div class="form-group">  
-                                                    <label>Contraseña</label>  
-                                                    <a href="#" style="float:right;font-size:12px;">¿Olvidó su contraseña?</a>  
-                                                    <input type="password" class="form-control" name="password">  
+                                                    <label>Confirmar contraseña</label>
+                                                    <input type="password" class="form-control" name="confirm_password">  
                                                 </div>
 
                                                 <br>
@@ -70,7 +92,7 @@
                                                         </svg>
                                                     </a>
 
-                                                    <button type="submit" class="btn-login">Iniciar Sesión</button>
+                                                    <button type="submit" class="btn-login">Registrar</button>
                                                 </div>
                                             </form>  
                                         </div>  
