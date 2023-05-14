@@ -25117,7 +25117,7 @@ textarea.form-control-lg{
   font-size: 16px !important;
 }
 
-.bg-body { 
+.dg-bg-body { 
   background: url(https://firmadoc.com.co/docugate/public/build/assets/background-login-7a5cb4da.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -25125,15 +25125,21 @@ textarea.form-control-lg{
   background-size: cover;
 }
 
-/* @media (max-width: 880px) {
-  .dg-lg-card {
-    left: -75px !important;
-  }
-} */
+.dg-shadow-container {
+    position: relative;
+    max-width: 640px;
+    min-width: 480px;
+}
+
+.dg-shadow-img {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}
 
 .dg-img-barra {
     position: absolute;
-    top: 9px;
+    top: 1.8%;
     height: 96% !important;
 }
 
@@ -25143,16 +25149,18 @@ textarea.form-control-lg{
     }
 }
 
-@media (max-width: 412px) {
-  * {
-    font-size: 14px !important;
-  }
-
+@media (max-width: 540px) {
   .dg-lg-card {
     left: -96px !important;
     top: -82px !important;
+
     width: 378px !important;
     height: 632px !important;
+  }
+
+  .dg-shadow-container {
+    left: -96px !important;
+    top: -82px !important;
   }
 
   .dg-img-logo {
@@ -25161,7 +25169,7 @@ textarea.form-control-lg{
 
   .dg-img-barra {
     position: absolute;
-    top: 9px;
+    top: 1.8%;
     height: 615px !important;
   }
 }
